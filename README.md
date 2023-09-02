@@ -27,3 +27,11 @@ Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.
 
 (venv) catalunha@pop-os:~/apps/poc_isar_api$ python manage.py runserver
+
+(venv) catalunha@pop-os:~/apps/poc_isar_api$ python -m venv venv
+catalunha@pop-os:~/myapp/pocs/poc_isar_api$ source ./venv/bin/activate
+(venv) catalunha@pop-os:~/myapp/pocs/poc_isar_api$ ls
+db.sqlite3  pocisarapi  README.md         venv
+manage.py   project     requirements.txt
+(venv) catalunha@pop-os:~/myapp/pocs/poc_isar_api$ pip install -r requirements.txt 
+Collecting
